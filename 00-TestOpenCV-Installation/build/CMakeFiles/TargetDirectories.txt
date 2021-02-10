@@ -1,0 +1,3 @@
+/media/vladimir/850 PRO 512GB/GitHub/OpenCV-Labs-Linux/00-TestOpenCV-Installation/build/CMakeFiles/rebuild_cache.dir
+/media/vladimir/850 PRO 512GB/GitHub/OpenCV-Labs-Linux/00-TestOpenCV-Installation/build/CMakeFiles/edit_cache.dir
+/media/vladimir/850 PRO 512GB/GitHub/OpenCV-Labs-Linux/00-TestOpenCV-Installation/build/CMakeFiles/sampleCode.dir
