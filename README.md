@@ -37,7 +37,9 @@
   $  sudo apt-get -y install libopencore-amrnb-dev libopencore-amrwb-dev
   $  sudo apt-get -y install libavresample-dev
   $  sudo apt-get -y install x264 v4l-utils
-  $  sudo apt-get -y install libprotobuf-dev protobuf-compiler ; sudo apt-get -y install libgoogle-glog-dev libgflags-dev ; sudo apt-get -y install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen ; 
+  $  sudo apt-get -y install libprotobuf-dev protobuf-compiler 
+  $ sudo apt-get -y install libgoogle-glog-dev libgflags-dev 
+  $ sudo apt-get -y install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen 
   $  git clone https://github.com/opencv/opencv_contrib.git
   $  cd opencv_contrib
   $  git checkout tags/4.5.0
