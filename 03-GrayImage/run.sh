@@ -1,0 +1,1 @@
+./build/grayImage "$1"
