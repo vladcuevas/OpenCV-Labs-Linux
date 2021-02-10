@@ -2,6 +2,7 @@
 
   # Commands to Install OpenCV
   
+  ```bash
   $  mkdir installation
   $  mkdir installation/OpenCV
   $  OpenCV_Home_DIR=$(pwd)
@@ -51,3 +52,4 @@
   $  cd "$OpenCV_Home_DIR"
   $  cd opencv
   $  rm -rf build
+```
