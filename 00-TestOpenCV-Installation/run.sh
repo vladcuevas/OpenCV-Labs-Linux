@@ -1,1 +1,1 @@
-.build/sampleCode
+./build/sampleCode
