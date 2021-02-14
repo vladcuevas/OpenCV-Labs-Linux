@@ -66,5 +66,30 @@ params.minInertiaRatio = 0.01;
 
 detector = SimpleBlobDetector::create(params);
 
+img = imread(DATA_PATH + "images/blob_detection.jpg", IMREAD_GRAYSCALE);
+
+detector->detect(img, keypoints);
+
+// Mark blobs using image annotation concepts we have studied so far
+
+cvtColor(img, img, COLOR_GRAY2BGR);
+for (int i=0; i < keypoints.size(); i++){
+    KeyPoint k = keypoints[i];
+    Point keyPt;
+    keyPt = k.pt;
+    x=(int)keyPt.x;
+    y=(int)keyPt.y;
+    // Mark center in BLACK
+    circle(img,Point(x,y),5,Scalar(255,0,0),-1);
+    // Get radius of coin
+    diameter = k.size;
+    radius = (int)diameter/2.0;
+    // Mark blob in GREEN
+    circle(img, Point(x,y),radius,Scalar(0,255,0),2);
+}
+
+imshow("Image",img);
+waitKey(0);
+
 return 0;
 }

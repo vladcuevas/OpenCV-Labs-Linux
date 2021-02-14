@@ -75,3 +75,9 @@ There are 2 type of bounding boxes we can create around a contour:
 Fitting a bounding box (vertical or rotated) is the preferred choice in most cases but in cases where you are only dealing with circles or ellipses, fitting a circle and/or an ellipse is a much better choice.
 
 Let's see how we can do it.
+
+# Blob Detection
+
+![Image of Yaktocat](../images/blob_detection.jpg)
+
+A Blob is a group of connected pixels in an image that share some common property ( E.g grayscale value ). In the image above, the dark connected regions are blobs, and the goal of blob detection is to identify and mark these regions.
