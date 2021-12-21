@@ -43,7 +43,7 @@ void video_cv::write_video(VideoCapture cap, int fps, string writePath)
     // The output is stored in 'outputChaplin.mp4' file.
     VideoWriter out(
         writePath,
-        VideoWriter::fourcc('M', 'J', 'P', 'G'),
+        VideoWriter::fourcc('m','p','4','v'),
         fps,
         Size(
             frame_width,

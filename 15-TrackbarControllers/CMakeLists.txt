@@ -26,6 +26,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT")
 #############  Common Instructions for all Users  ############
 
 # SET (CMAKE_INCLUDE_CURRENT_DIR ON)
+set (CMAKE_CXX_STANDARD 11)
 
 FIND_PACKAGE( OpenCV REQUIRED )
 

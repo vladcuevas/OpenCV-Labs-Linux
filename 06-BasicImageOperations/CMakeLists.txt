@@ -18,12 +18,14 @@ PROJECT(opencv)
 ##############################################################
 
 ##########   Uncomment For WINDOWS USERS ONLY    #############
-SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT")
+# SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT")
 ##############################################################
 
 ###################   ***DO NOT EDIT***  #####################
 
 #############  Common Instructions for all Users  ############
+
+set (CMAKE_CXX_STANDARD 11)
 
 # SET (CMAKE_INCLUDE_CURRENT_DIR ON)
 
